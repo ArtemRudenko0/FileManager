@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\filemanager\\fileitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\fileitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\filemanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|c:\\users\\artem\\desktop\\\u043F\u0440\u043E\u0435\u043A\u0442\\filemanager\\filemanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileItem.cs",
+              "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\FileItem.cs",
+              "RelativeDocumentMoniker": "FileManager\\FileItem.cs",
+              "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\FileItem.cs",
+              "RelativeToolTip": "FileManager\\FileItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T12:39:22.559Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "FileManager\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml",
+              "RelativeToolTip": "FileManager\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T11:16:11.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FileManager\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml.cs",
+              "RelativeToolTip": "FileManager\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAEEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T11:16:09.227Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
