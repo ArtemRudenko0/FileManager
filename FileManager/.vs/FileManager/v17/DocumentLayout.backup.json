@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\filemanager\\menufunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\menufunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|c:\\users\\artem\\desktop\\\u043F\u0440\u043E\u0435\u043A\u0442\\filemanager\\filemanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,23 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FileItem.cs",
               "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\FileItem.cs",
               "RelativeDocumentMoniker": "FileManager\\FileItem.cs",
               "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\FileItem.cs",
               "RelativeToolTip": "FileManager\\FileItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T12:39:22.559Z"
+              "WhenOpened": "2024-12-05T12:39:22.559Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MenuFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MenuFunctions.cs",
+              "RelativeDocumentMoniker": "FileManager\\MenuFunctions.cs",
+              "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MenuFunctions.cs",
+              "RelativeToolTip": "FileManager\\MenuFunctions.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwD8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:29:34.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml",
               "RelativeDocumentMoniker": "FileManager\\MainWindow.xaml",
@@ -50,13 +68,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "FileManager\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "FileManager\\MainWindow.xaml.cs*",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAowJwAAAARAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml.cs",
+              "RelativeToolTip": "FileManager\\MainWindow.xaml.cs",
+              "ViewState": "AgIAANsBAAAAAAAAAAAQwO4BAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T11:16:09.227Z",
               "EditorCaption": ""
