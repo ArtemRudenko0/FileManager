@@ -14,6 +14,7 @@ namespace FileManager
         public string Name { get; set; } // Имя файла/папки
         public string Type { get; set; } // Тип: файл или папка
         public string DateModified { get; set; } // Дата изменения
+        public string Id { get; set; }          // ID для Google Drive
         public string Size { get; set; } // Размер в удобном формате
         public string Icon { get; set; } // Путь к иконке
 

@@ -5,13 +5,79 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FileManager"
         mc:Ignorable="d"
-        Title="MainWindow" Height="432" Width="1109">
+        Title="MainWindow" Height="480" Width="1109">
+    <Window.Resources>
+        <!-- Стиль для тайл-вью -->
+        <Style x:Key="TileViewItemStyle" TargetType="ListViewItem">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListViewItem">
+                        <Border Background="Transparent" CornerRadius="5" Padding="5">
+                            <!-- Эффекты при наведении -->
+                            <Border.Style>
+                                <Style TargetType="Border">
+                                    <Setter Property="Background" Value="Transparent" />
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#FFD6E6F5" />
+                                        </Trigger>
+                                        <Trigger Property="Selector.IsSelected" Value="True">
+                                            <Setter Property="Background" Value="#FFCCE4F7" />
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Border.Style>
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Width="100" Height="130">
+                                <!-- Иконка -->
+                                <Image Source="{Binding Icon}" Width="80" Height="80" HorizontalAlignment="Center" VerticalAlignment="Top" />
+                                <!-- Название файла -->
+                                <TextBlock Text="{Binding Name}" FontWeight="Bold" TextAlignment="Center" VerticalAlignment="Center" Margin="5,5,5,0" 
+                                           TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" />
+                            </StackPanel>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="231*"/>
             <RowDefinition Height="185*"/>
         </Grid.RowDefinitions>
-        <ListView x:Name="fileListView" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="217,52,0,0" Grid.RowSpan="2" MouseDoubleClick="OnListViewItemDoubleClick">
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10">
+            <!-- Вкладка локальных дисков -->
+            <Button x:Name="LocalDisksTab" Width="100" Height="50" ToolTip="Локальные диски" Click="OnLocalDisksClick" Background="LightGray">
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="Gray" BorderThickness="1" CornerRadius="5">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                                <Image Source="hard-drive.png" Width="40" Height="40" Margin="5" />
+                                <TextBlock Text="Локальные диски" FontWeight="Bold" FontSize="12" HorizontalAlignment="Center" />
+                            </StackPanel>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button x:Name="GoogleDriveTab" Width="100" Height="50" ToolTip="Google Диск" Click="OnGoogleDriveClick" Background="Transparent">
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="Gray" BorderThickness="1" CornerRadius="5">
+                            <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                                <Image Source="google-drive.png" Width="40" Height="40" Margin="5" />
+                                <TextBlock Text="Google Диск" FontWeight="Bold" FontSize="12" HorizontalAlignment="Center" />
+                            </StackPanel>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+            <!-- Вкладка Google Диска -->
+        </StackPanel>
+
+        <ListView x:Name="fileListView" d:ItemsSource="{d:SampleData ItemCount=5}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Margin="217,98,0,27" Grid.RowSpan="2" MouseDoubleClick="OnListViewItemDoubleClick">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Ім'я" DisplayMemberBinding="{Binding Name}" Width="300" />
@@ -20,9 +86,29 @@
                     <GridViewColumn Header="Розмір" DisplayMemberBinding="{Binding Size}" Width="75" />
                 </GridView>
             </ListView.View>
+            <ListView.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Открыть" Click="OnOpenClick" />
+                    <MenuItem Header="Вырезать" Click="OnCutClick" />
+                    <MenuItem Header="Копировать" Click="OnCopyClick" />
+                    <MenuItem Header="Вставить" Click="OnPasteClick" />
+                    <MenuItem Header="Удалить" Click="OnDeleteClick" />
+                    <MenuItem Header="Переименовать" Click="OnRenameClick" />
+                    <MenuItem Header="Создать">
+                        <MenuItem Header="Папку" Click="OnCreateFolderClick" />
+                        <MenuItem Header="ТХТ файл" Click="OnCreateTxtClick" />
+                        <MenuItem Header="Word документ" Click="OnCreateWordClick" />
+                        <MenuItem Header="Excel таблицу" Click="OnCreateExcelClick" />
+                        <MenuItem Header="PowerPoint презентацию" Click="OnCreatePptClick" />
+                    </MenuItem>
+                </ContextMenu>
+            </ListView.ContextMenu>
         </ListView>
-        <TreeView x:Name="treeView" Margin="0,52,0,0" Grid.RowSpan="2" HorizontalAlignment="Left" Width="217" SelectedItemChanged="OnTreeViewSelectedItemChanged"/>
-        <Border BorderBrush="#FFB5B3B3" BorderThickness="1" HorizontalAlignment="Left" Height="27" Margin="140,10,0,0" VerticalAlignment="Top" Width="724">
+
+
+
+        <TreeView x:Name="treeView" Margin="0,98,0,0" Grid.RowSpan="2" HorizontalAlignment="Left" Width="217" SelectedItemChanged="OnTreeViewSelectedItemChanged"/>
+        <Border BorderBrush="#FFB5B3B3" BorderThickness="1" HorizontalAlignment="Left" Height="27" Margin="127,65,0,0" VerticalAlignment="Top" Width="724">
             <Label Content="Label" 
            HorizontalAlignment="Center" 
            VerticalAlignment="Center" 
@@ -31,10 +117,14 @@
            MinWidth="5" 
            MinHeight="5" />
         </Border>
-        <Button x:Name="BackButton" FontFamily="Segoe UI Symbol" Content="&#xe016;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="27" Width="37"
+        <Button x:Name="BackButton" FontFamily="Segoe UI Symbol" Content="&#xe016;" HorizontalAlignment="Left" Margin="13,65,0,0" VerticalAlignment="Top" Height="27" Width="37"
                 Click="OnClickBack" IsEnabled="False"/>
-        <Button x:Name="NextButton" FontFamily="Segoe UI Symbol" Content="&#xe017;" HorizontalAlignment="Left" Margin="47,10,0,0" VerticalAlignment="Top" Height="27" Width="37"
+        <Button x:Name="NextButton" FontFamily="Segoe UI Symbol" Content="&#xe017;" HorizontalAlignment="Left" Margin="50,65,0,0" VerticalAlignment="Top" Height="27" Width="37"
                 Click="OnClickForward" IsEnabled="False"/>
-
+        <Button Content="Список" HorizontalAlignment="Right" Margin="0,0,110,2" Width="100"
+        Click="SwitchToListView" Grid.Row="1" Height="20" VerticalAlignment="Bottom" />
+        <Button Content="Плитки" HorizontalAlignment="Right" Margin="0,0,10,2" Width="100"
+        Click="SwitchToTileView" Grid.Row="1" Height="20" VerticalAlignment="Bottom" />
     </Grid>
+
 </Window>
