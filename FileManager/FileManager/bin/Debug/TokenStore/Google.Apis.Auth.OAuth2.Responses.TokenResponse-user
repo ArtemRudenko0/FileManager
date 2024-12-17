@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"access_token":"ya29.a0ARW5m76UMwh9RKOofC03Qb9haL824CdAb0Rl460l39lSQVuo9FPwWT5gIMhQP06M40zqJOWhvqGC3xFUYwr54aKN3WXoHnw3ZMp97K1zTV2ANCHfdHzg5nXtejLVAk4N_UPAWQqf3yUrbLvBUsM2XeL2t1JYePeeq3HkSOT8aCgYKAf4SARASFQHGX2MirMlMZIU1oo7zDSET0ZiK1w0175","token_type":"Bearer","expires_in":3599,"refresh_token":"1//09n5nkTR_3mlICgYIARAAGAkSNwF-L9IrLK7kxEj6tQ43BewNw5x5Vf9yYEenw4vMSBIcX4tRdS8UV-L2YqBLtXP7tVaaRBJ26kk","scope":"https://www.googleapis.com/auth/drive https://www.googleapis.com/auth/drive.file","Issued":"2024-12-17T11:34:09.054+02:00","IssuedUtc":"2024-12-17T09:34:09.054Z"}
+=======
+{"access_token":"","token_type":"Bearer","expires_in":3599,"refresh_token":"","scope":"https://www.googleapis.com/auth/drive","Issued":"2024-12-10T21:30:48.656+02:00","IssuedUtc":"2024-12-10T19:30:48.656Z"}
+>>>>>>> c754c1502029b84a3318c45aa044caa73dcea7bd
