@@ -31,3 +31,10 @@ C:\Users\ARTEM\Desktop\Проект\FileManager\FileManager\bin\Debug\Google.Api
 C:\Users\ARTEM\Desktop\Проект\FileManager\FileManager\bin\Debug\Google.Apis.Drive.v3.xml
 C:\Users\ARTEM\Desktop\Проект\FileManager\FileManager\bin\Debug\Newtonsoft.Json.xml
 C:\Users\ARTEM\Desktop\Проект\FileManager\FileManager\bin\Debug\System.CodeDom.xml
+C:\Users\ARTEM\Desktop\Проект\FileManager\FileManager\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ARTEM\Desktop\Проект\FileManager\FileManager\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ARTEM\Desktop\Проект\FileManager\FileManager\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ARTEM\Desktop\Проект\FileManager\FileManager\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ARTEM\Desktop\Проект\FileManager\FileManager\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ARTEM\Desktop\Проект\FileManager\FileManager\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ARTEM\Desktop\Проект\FileManager\FileManager\obj\Debug\GeneratedInternalTypeHelper.g.cs

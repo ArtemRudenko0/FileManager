@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 
@@ -11,11 +12,22 @@ namespace FileManager
 {
     internal class MenuFunctions
     {
+        private readonly Func<string, string> _getFileIcon;
+
+        public MenuFunctions(Func<string, string> getFileIcon)
+        {
+            _getFileIcon = getFileIcon;
+        }
+
+        public string GetIcon(string filePath)
+        {
+            return _getFileIcon(filePath);
+        }
         public void CreateItem(string itemType, string currentDirectory, string name)
         {
             try
             {
-                string itemName = "Новый элемент";
+                string itemName = "Новий елемент";
                 string fullPath = "";
 
                 switch (itemType)
@@ -25,7 +37,7 @@ namespace FileManager
                         fullPath = Path.Combine(currentDirectory, itemName);
                         int folderCounter = 1;
 
-                        // Проверяем уникальность имени
+                        // Перевіряємо унікальність імені
                         while (Directory.Exists(fullPath))
                         {
                             itemName = $"Нова папка ({folderCounter++})";
@@ -33,7 +45,7 @@ namespace FileManager
                         }
 
                         Directory.CreateDirectory(fullPath);
-                       // MessageBox.Show($"Папка '{itemName}' успешно создана.");
+                       
                         break;
 
                     case "Txt":
@@ -41,15 +53,15 @@ namespace FileManager
                         fullPath = Path.Combine(currentDirectory, itemName);
                         int txtCounter = 1;
 
-                        // Проверяем уникальность имени
+                        // Перевіряємо унікальність імені
                         while (File.Exists(fullPath))
                         {
                             itemName = $"Новий текстовий документ ({txtCounter++}).txt";
                             fullPath = Path.Combine(currentDirectory, itemName);
                         }
 
-                        File.Create(fullPath).Close(); // Создаем файл
-                       // MessageBox.Show($"Файл '{itemName}' успешно создан.");
+                        File.Create(fullPath).Close(); // Створюємо файл
+                                                       
                         break;
 
                     case "Word":
@@ -57,15 +69,15 @@ namespace FileManager
                         fullPath = Path.Combine(currentDirectory, itemName);
                         int wordCounter = 1;
 
-                        // Проверяем уникальность имени
+                        // Перевіряємо унікальність імені
                         while (File.Exists(fullPath))
                         {
                             itemName = $"Microsoft Word Document ({wordCounter++}).docx";
                             fullPath = Path.Combine(currentDirectory, itemName);
                         }
 
-                        File.Create(fullPath).Close(); // Создаем файл
-                       // MessageBox.Show($"Документ Word '{itemName}' успешно создан.");
+                        File.Create(fullPath).Close(); // Створюємо файл
+
                         break;
 
                     case "Excel":
@@ -73,7 +85,7 @@ namespace FileManager
                         fullPath = Path.Combine(currentDirectory, itemName);
                         int excelCounter = 1;
 
-                        // Проверяем уникальность имени
+                        // Перевіряємо унікальність імені
                         while (File.Exists(fullPath))
                         {
                             itemName = $"Microsoft Excel Worksheet ({excelCounter++}).xlsx";
@@ -81,7 +93,7 @@ namespace FileManager
                         }
 
                         File.Create(fullPath).Close(); // Создаем файл
-                        //MessageBox.Show($"Таблица Excel '{itemName}' успешно создана.");
+                       
                         break;
 
                     case "Ppt":
@@ -89,54 +101,55 @@ namespace FileManager
                         fullPath = Path.Combine(currentDirectory, itemName);
                         int pptCounter = 1;
 
-                        // Проверяем уникальность имени
+                        // Перевіряємо унікальність імені
                         while (File.Exists(fullPath))
                         {
                             itemName = $"Microsoft PowerPoint Presentation ({pptCounter++}).pptx";
                             fullPath = Path.Combine(currentDirectory, itemName);
                         }
 
-                        File.Create(fullPath).Close(); // Создаем файл
-                       // MessageBox.Show($"Презентация PowerPoint '{itemName}' успешно создана.");
+                        File.Create(fullPath).Close(); // Створюємо файл
+                                                       
                         break;
 
                     default:
-                        MessageBox.Show("Неизвестный тип элемента.");
+                        MessageBox.Show("Невідомий тип елементу.");
                         break;
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка при создании элемента: {ex.Message}");
+                MessageBox.Show($"Помилка при створенні елементу: {ex.Message}");
             }
         }
         public void DeleteItem(string path)
         {
             try
             {
-                // Проверяем, существует ли файл или папка
+
+                // Перевіряємо, чи існує файл чи папка
                 if (File.Exists(path))
                 {
                     //MessageBox.Show("file");
-                    // Удаление файла с перемещением в корзину
+                    // Видалення файлу з переміщенням у кошик
                     FileSystem.DeleteFile(path, UIOption.OnlyErrorDialogs, RecycleOption.SendToRecycleBin);
-                    //MessageBox.Show($"Файл '{Path.GetFileName(path)}' успешно перемещен в корзину.");
+                    
                 }
                 else if (Directory.Exists(path))
                 {
-                   // MessageBox.Show("directory");
-                    // Удаление папки с перемещением в корзину
+                    // MessageBox.Show("directory");
+                    // Видалення папки з переміщенням у кошик
                     FileSystem.DeleteDirectory(path, UIOption.OnlyErrorDialogs, RecycleOption.SendToRecycleBin);
-                    //MessageBox.Show($"Папка '{Path.GetFileName(path)}' успешно перемещена в корзину.");
+                   
                 }
                 else
                 {
-                    MessageBox.Show("Указанный путь не существует.");
+                    MessageBox.Show("Вказаний шлях не існує.");
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка при удалении: {ex.Message}");
+                MessageBox.Show($"Помилка при видаленні: {ex.Message}");
             }
         }
         public void RenameItem(string currentPath, string newName)
@@ -155,7 +168,7 @@ namespace FileManager
                 }
                 else
                 {
-                    MessageBox.Show("Указанный путь не существует.");
+                    MessageBox.Show("Вказаний шлях не існує.");
                 }
             }
             catch (Exception ex)
@@ -165,17 +178,18 @@ namespace FileManager
         }
         public void CopyDirectory(string sourceDir, string destDir)
         {
-            // Создаём целевую папку, если её нет
+            // Створюємо цільову папку, якщо її немає
             Directory.CreateDirectory(destDir);
 
-            // Копируем файлы из исходной папки
+
+            // Копіюємо файли з вихідної папки
             foreach (var file in Directory.GetFiles(sourceDir))
             {
                 string destFile = Path.Combine(destDir, Path.GetFileName(file));
                 File.Copy(file, destFile, overwrite: true);
             }
 
-            // Рекурсивно копируем вложенные папки
+            // Рекурсивно копіюємо вкладені папки
             foreach (var directory in Directory.GetDirectories(sourceDir))
             {
                 string destSubDir = Path.Combine(destDir, Path.GetFileName(directory));
@@ -185,7 +199,7 @@ namespace FileManager
 
         public void PasteItem(string sourcePath, string destinationPath, bool isCut)
         {
-            if (File.Exists(sourcePath)) // Если это файл
+            if (File.Exists(sourcePath)) // Якщо це файл
             {
                 if (isCut)
                 {
@@ -196,7 +210,8 @@ namespace FileManager
                     File.Copy(sourcePath, destinationPath, overwrite: true);
                 }
             }
-            else if (Directory.Exists(sourcePath)) // Если это папка
+            else if (Directory.Exists(sourcePath))   // Якщо це папка
+
             {
                 if (isCut)
                 {
@@ -209,9 +224,75 @@ namespace FileManager
             }
             else
             {
-                throw new FileNotFoundException("Элемент больше не существует.");
+                throw new FileNotFoundException("Елемент більше не існує.");
             }
         }
+
+         public void SearchLocalFiles(string directoryPath, string searchText, Action<FileItem> onItemFound, CancellationToken cts = default )
+          {
+              try
+              {
+                // Пошук папок у поточній директорії
+                   
+                     var directories = Directory.GetDirectories(directoryPath, $"*{searchText}*");
+                  foreach (var dir in directories)
+                  {
+                    cts.ThrowIfCancellationRequested();
+                      var folderItem = new FileItem
+                      {
+                          Name = Path.GetFileName(dir),
+                          Type = "Папка",
+                          DateModified = Directory.GetLastWriteTime(dir).ToString(),
+                          Size = "",
+                          FullPath = dir,
+                          Icon = "Folder.png"
+                      };
+                      onItemFound?.Invoke(folderItem);
+                  }
+
+                // Пошук папок у поточній директорії
+                var files = Directory.GetFiles(directoryPath, $"*{searchText}*");
+                  foreach (var file in files)
+                  {
+                    cts.ThrowIfCancellationRequested();
+                    // Перевірка скасування
+                    var fileItem = new FileItem
+                      {
+                          Name = Path.GetFileName(file),
+                          Type = "Файл",
+                          DateModified = File.GetLastWriteTime(file).ToString(),
+                          Size = MainWindow.GetReadableFileSize(new FileInfo(file).Length),
+                          FullPath = file,
+                          Icon = GetIcon(file)
+                      };
+                      onItemFound?.Invoke(fileItem);
+                  }
+
+                // Рекурсивний обхід підпапок
+                var subDirectories = Directory.GetDirectories(directoryPath);
+                  foreach (var subDirectory in subDirectories)
+                  {
+                    cts.ThrowIfCancellationRequested(); // Перевірка скасування
+                    SearchLocalFiles(subDirectory, searchText, onItemFound); // Рекурсивний виклик
+
+                }
+            }
+            catch (OperationCanceledException)
+            {
+                
+               // MessageBox.Show("Відміна успішка");
+            }
+            catch (UnauthorizedAccessException)
+              {
+                // Пропускаємо папки, до яких немає доступу
+            }
+            catch (Exception ex)
+              {
+                  MessageBox.Show($"Ошибка поиска: {ex.Message}");
+              }
+          }
+        
+
     }
 }
 

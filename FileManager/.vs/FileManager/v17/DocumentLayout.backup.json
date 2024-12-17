@@ -7,20 +7,28 @@
       "RelativeMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\filemanager\\googledrivemenufunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\googledrivemenufunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\filemanager\\breadcrumbitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\breadcrumbitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\filemanager\\menufunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\menufunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\filemanager\\googledrivemenufunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\googledrivemenufunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\filemanager\\googledriveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\googledriveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\filemanager\\spacetowidthconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\spacetowidthconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\filemanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\filemanager\\menufunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|solutionrelative:filemanager\\menufunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE0D3DAA-EBAE-47C7-927C-D3D330C59865}|FileManager\\FileManager.csproj|C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\filemanager\\fileitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,33 +42,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "FileItem.cs",
               "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\FileItem.cs",
               "RelativeDocumentMoniker": "FileManager\\FileItem.cs",
               "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\FileItem.cs",
               "RelativeToolTip": "FileManager\\FileItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T12:39:22.559Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "FileManager\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml",
+              "RelativeToolTip": "FileManager\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T11:16:11.526Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FileManager\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "FileManager\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAALUAAAAAAAAAAAAwwNgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T19:43:22.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MenuFunctions.cs",
+              "RelativeDocumentMoniker": "FileManager\\MenuFunctions.cs",
+              "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MenuFunctions.cs",
+              "RelativeToolTip": "FileManager\\MenuFunctions.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T08:30:00.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GoogleDriveMenuFunctions.cs",
               "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\GoogleDriveMenuFunctions.cs",
               "RelativeDocumentMoniker": "FileManager\\GoogleDriveMenuFunctions.cs",
               "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\GoogleDriveMenuFunctions.cs",
               "RelativeToolTip": "FileManager\\GoogleDriveMenuFunctions.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAowGwAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABcCAAAAAAAAAAAAACQCAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T07:12:33.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T07:12:33.821Z"
             },
             {
               "$type": "Document",
@@ -70,48 +114,33 @@
               "RelativeDocumentMoniker": "FileManager\\GoogleDriveService.cs",
               "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\GoogleDriveService.cs",
               "RelativeToolTip": "FileManager\\GoogleDriveService.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAqwKEAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAwwB8BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T19:41:24.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenuFunctions.cs",
-              "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MenuFunctions.cs",
-              "RelativeDocumentMoniker": "FileManager\\MenuFunctions.cs",
-              "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MenuFunctions.cs",
-              "RelativeToolTip": "FileManager\\MenuFunctions.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwKEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:29:34.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T19:41:24.923Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "FileManager\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml",
-              "RelativeToolTip": "FileManager\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-05T11:16:11.526Z",
-              "EditorCaption": ""
+              "Title": "SpaceToWidthConverter.cs",
+              "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\SpaceToWidthConverter.cs",
+              "RelativeDocumentMoniker": "FileManager\\SpaceToWidthConverter.cs",
+              "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\SpaceToWidthConverter.cs",
+              "RelativeToolTip": "FileManager\\SpaceToWidthConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T09:41:09.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "FileManager\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\MainWindow.xaml.cs",
-              "RelativeToolTip": "FileManager\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAHcCAAAAAAAAAAAgwI0CAAAvAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BreadcrumbItem.cs",
+              "DocumentMoniker": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\BreadcrumbItem.cs",
+              "RelativeDocumentMoniker": "FileManager\\BreadcrumbItem.cs",
+              "ToolTip": "C:\\Users\\ARTEM\\Desktop\\\u041F\u0440\u043E\u0435\u043A\u0442\\FileManager\\FileManager\\BreadcrumbItem.cs",
+              "RelativeToolTip": "FileManager\\BreadcrumbItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T19:43:22.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T18:06:48.392Z"
             }
           ]
         }

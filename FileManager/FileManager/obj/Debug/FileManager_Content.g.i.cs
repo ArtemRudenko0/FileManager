@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("hard-drive.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("mainicon.png")]
 
 

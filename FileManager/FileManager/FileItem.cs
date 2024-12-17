@@ -11,12 +11,16 @@ namespace FileManager
 {
     public class FileItem
     {
-        public string Name { get; set; } // Имя файла/папки
-        public string Type { get; set; } // Тип: файл или папка
-        public string DateModified { get; set; } // Дата изменения
+        public string Name { get; set; } // Ім'я файлу/папки
+        public string Type { get; set; } // Тип: файл або папка
+        public string DateModified { get; set; } // Дата зміни
         public string Id { get; set; }          // ID для Google Drive
-        public string Size { get; set; } // Размер в удобном формате
-        public string Icon { get; set; } // Путь к иконке
+        public string Size { get; set; } // Розмір у зручному форматі
+        public string Icon { get; set; } // Шлях до іконки
+
+        public string FullPath { get; set; } // Для локальних файлів
+        public long TotalSize { get; set; } //Загальний розщір(Для диску)
+        public long FreeSpace { get; set; } //Доступно місця(Для диску)
 
     }
 }
